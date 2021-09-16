@@ -21,13 +21,7 @@ def close():
     print("Door closing")
     pir_sensor_one.wait_for_no_motion()
     power_supply.on()
-    for wait_time in range(600):
-        if pir_sensor_one.motion_detected:
-            wait_for_dog()
-        if pir_sensor_two.motion_detected:
-            wait_for_dog()
-        time.sleep(0.1)
-        time.sleep(0.1)
+    time.sleep(60)
     power_supply.off()
     print("Door closed")
     
