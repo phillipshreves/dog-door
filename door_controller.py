@@ -4,7 +4,7 @@ import time
 power_supply = gpiozero.DigitalOutputDevice(4)
 actuator_reversal = gpiozero.DigitalOutputDevice(27)
 pir_sensor_one = gpiozero.MotionSensor(23)
-pir_sensor_one = gpiozero.MotionSensor(24)
+pir_sensor_two = gpiozero.MotionSensor(24)
 
 
 def wait_for_dog():
