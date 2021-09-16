@@ -7,7 +7,7 @@ import door_controller
 from signal import pause
 
 
-button_inside = gpiozero.Button(17)
+button_inside = gpiozero.Button(25)
 button_outside = gpiozero.Button(18)
 pir_sensor_one = gpiozero.MotionSensor(23)
 pir_sensor_two = gpiozero.MotionSensor(24)
