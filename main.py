@@ -7,14 +7,14 @@ import door_controller
 from signal import pause
 
 
-button_inside = gpiozero.Button(11)
-button_outside = gpiozero.Button(12)
+button_inside = gpiozero.Button(17)
+button_outside = gpiozero.Button(18)
 
 
 button_inside.when_pressed = door_controller.open
 button_outside.when_pressed = door_controller.open
-button_inside.when_held = door_controller.open_forever
-button_outside.when_held = door_controller.open_forever
+#button_inside.when_held = door_controller.open_forever
+#button_outside.when_held = door_controller.open_forever
 
 
 pause()
