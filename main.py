@@ -4,22 +4,16 @@
 
 import gpiozero
 import door_controller
+import gpio_assignments
 from signal import pause
 
-
-button_inside = gpiozero.Button(25)
-button_outside = gpiozero.Button(18)
-pir_sensor_one = gpiozero.MotionSensor(23)
-pir_sensor_two = gpiozero.MotionSensor(24)
-
-
-button_inside.when_pressed = door_controller.open
-button_outside.when_pressed = door_controller.open
+gpio_assignments.button_inside.when_pressed = door_controller.open
+gpio_assignments.button_outside.when_pressed = door_controller.open
 #button_inside.when_held = door_controller.open_forever
 #button_outside.when_held = door_controller.open_forever
 
-pir_sensor_one.motion_detected = door_controller.wait_for_dog
-pir_sensor_two.motion_detected = door_controller.wait_for_dog
+gpio_assignments.pir_sensor_one.when_motion = door_controller.wait_for_dog
+gpio_assignments.pir_sensor_two.when_motion = door_controller.wait_for_dog
             
 
 pause()
