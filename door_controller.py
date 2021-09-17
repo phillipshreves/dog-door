@@ -6,7 +6,7 @@ import gpio_assignments
 def wait_for_dog():
     if gpio_assignments.actuator_reversal.value == 0:
         gpio_assignments.power_supply.off()
-        sleep(2)
+        time.sleep(2)
         gpio_assignments.power_supply.on()
 
 
