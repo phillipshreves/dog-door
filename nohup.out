@@ -1,0 +1,7 @@
+./main_reader.py: 1: ./main_reader.py: import: not found
+./main_reader.py: 2: ./main_reader.py: import: not found
+./main_reader.py: 3: ./main_reader.py: import: not found
+from: can't read /var/mail/signal
+./main_reader.py: 10: ./main_reader.py: gpio_assignments.button_inside.when_pressed: not found
+./main_reader.py: 11: ./main_reader.py: gpio_assignments.button_outside.when_pressed: not found
+./main_reader.py: 14: ./main_reader.py: Syntax error: end of file unexpected
