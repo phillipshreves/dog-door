@@ -14,7 +14,6 @@ def close():
     gpio_assignments.power_supply.on()
     for waiting in range(120):
         gpio_assignments.pir_sensor.when_motion = wait_for_dog
-        gpio_assignments.pir_sensor.when_motion = wait_for_dog
         time.sleep(0.1)
     gpio_assignments.power_supply.off()
     
