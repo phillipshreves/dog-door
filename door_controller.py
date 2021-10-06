@@ -12,7 +12,7 @@ def wait_for_dog():
 
 def close():
     gpio_assignments.power_supply.on()
-    for waiting in range(600):
+    for waiting in range(500):
         if gpio_assignments.pir_sensor.motion_detected:
             wait_for_dog()
         time.sleep(0.1)
@@ -23,7 +23,7 @@ def close():
 def open():
     gpio_assignments.actuator_reversal.on()
     gpio_assignments.power_supply.on()
-    time.sleep(40)
+    time.sleep(30)
     gpio_assignments.power_supply.off()
     gpio_assignments.actuator_reversal.off()
     time.sleep(2)
