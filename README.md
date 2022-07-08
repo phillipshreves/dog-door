@@ -1,3 +1,5 @@
+# Archived - personal project no longer needed(Dog was adopted)
+
 # Jack Door
 Motorized door opening and closing, controlled by Jack the dog
 
