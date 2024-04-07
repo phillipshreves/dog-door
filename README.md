@@ -1,5 +1,5 @@
-# Jack Door
-Motorized door opening and closing, controlled by Jack the dog
+# Pythonic Dog Door
+Motorized door opening and closing, controlled by Jack the dog!
 
 https://youtu.be/pmgy2o8wQfg
 
