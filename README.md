@@ -1,6 +1,8 @@
 # Jack Door
 Motorized door opening and closing, controlled by Jack the dog
+
 https://youtu.be/pmgy2o8wQfg
+
 [![Video of the dog door operating](https://img.youtube.com/vi/pmgy2o8wQfg/0.jpg)](https://www.youtube.com/watch?v=pmgy2o8wQfg)
 
 
