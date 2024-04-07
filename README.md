@@ -1,5 +1,6 @@
 # Jack Door
 Motorized door opening and closing, controlled by Jack the dog
+<video src="https://youtu.be/pmgy2o8wQfg" />
 
 ## Purpose
 An door control mechanism that is able to be operated by a dog(Jack). I've trained Jack to know that the button opens the door, from both the inside and the outside.
