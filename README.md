@@ -11,7 +11,13 @@ An door control mechanism that is able to be operated by a dog(Jack). I've train
 
 The purpose of this project was to eliminate the need to cut a dog door into the existing door as I was in a rental house, while still giving Jack outdoor autonomy. It turned out to be a great project for both implementing hardware, and training a dog.
 
-The hardware was the difficult part of this project. It utilizes a Raspberry Pi as a controller. A liner motor opens the door and holds it for a set amount of time, after which is starts closing. Two motion sensors scan while the door is closing, and if motion is detected, will halt for a set amount of time. 
+### Operation
+The hardware was the difficult part of this project. It utilizes a Raspberry Pi as a controller. 
+1. A liner motor opens the door
+2. The door holds open for a set amount of time
+3. The door starts closing
+4. Two motion sensors start scanning for movement
+5. If motion is detected, will halt for a set amount of time, then continue closing
 
 ### Issues
 There are still two concerns with this setup:
